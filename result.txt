@@ -1,0 +1,681 @@
+=================== Merge Sort ===================
+
+Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 54ms, valid
+1M: 622ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 54ms, valid
+1M: 636ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 61ms, valid
+1M: 738ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 54ms, valid
+1M: 650ms, valid
+
+==================================================
+
+
+
+============ Non-recursive Merge Sort ============
+
+Sorted
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 67ms, valid
+1M: 722ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 66ms, valid
+1M: 729ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 76ms, valid
+1M: 857ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 72ms, valid
+1M: 758ms, valid
+
+==================================================
+
+
+
+================ 3-way Merge Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 440ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 37ms, valid
+1M: 453ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 51ms, valid
+1M: 614ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 43ms, valid
+1M: 499ms, valid
+
+==================================================
+
+
+
+========= Non-recursive 3-way Merge Sort =========
+
+Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 47ms, valid
+1M: 523ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 48ms, valid
+1M: 541ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 63ms, valid
+1M: 680ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 55ms, valid
+1M: 581ms, valid
+
+==================================================
+
+
+
+================ 4-way Merge Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 31ms, valid
+1M: 386ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 34ms, valid
+1M: 400ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 46ms, valid
+1M: 570ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 39ms, valid
+1M: 460ms, valid
+
+==================================================
+
+
+
+================ 5-way Merge Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 32ms, valid
+1M: 369ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 35ms, valid
+1M: 403ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 48ms, valid
+1M: 572ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 38ms, valid
+1M: 456ms, valid
+
+==================================================
+
+
+
+================ 6-way Merge Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 32ms, valid
+1M: 384ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 37ms, valid
+1M: 419ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 51ms, valid
+1M: 617ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 40ms, valid
+1M: 479ms, valid
+
+==================================================
+
+
+
+=============== 0-based Heap Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 63ms, valid
+1M: 768ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 59ms, valid
+1M: 735ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 68ms, valid
+1M: 809ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 65ms, valid
+1M: 771ms, valid
+
+==================================================
+
+
+
+======== 0-based Non-recursive Heap Sort =========
+
+Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 58ms, valid
+1M: 692ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 58ms, valid
+1M: 666ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 59ms, valid
+1M: 733ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 4ms, valid
+100K: 57ms, valid
+1M: 691ms, valid
+
+==================================================
+
+
+
+=============== 1-based Heap Sort ================
+
+Sorted
+1K: 0ms, valid
+10K: 7ms, valid
+100K: 102ms, valid
+1M: 1170ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 89ms, valid
+1M: 1106ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 7ms, valid
+100K: 95ms, valid
+1M: 1208ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 7ms, valid
+100K: 95ms, valid
+1M: 1167ms, valid
+
+==================================================
+
+
+
+======== 1-based Non-recursive Heap Sort =========
+
+Sorted
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 88ms, valid
+1M: 1092ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 85ms, valid
+1M: 1043ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 7ms, valid
+100K: 89ms, valid
+1M: 1140ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 6ms, valid
+100K: 89ms, valid
+1M: 1086ms, valid
+
+==================================================
+
+
+
+=================== Quick Sort ===================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 34ms, valid
+1M: 425ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 439ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 40ms, valid
+1M: 495ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 431ms, valid
+
+==================================================
+
+
+
+==================== Tim Sort ====================
+
+Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 12ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 2ms, valid
+1M: 19ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 48ms, valid
+1M: 601ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 14ms, valid
+1M: 192ms, valid
+
+==================================================
+
+
+
+============= No-galloping Tim Sort ==============
+
+Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 12ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 2ms, valid
+1M: 20ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 46ms, valid
+1M: 569ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 19ms, valid
+1M: 261ms, valid
+
+==================================================
+
+
+
+================ Tournament Sort =================
+
+Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 10ms, valid
+1M: 122ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 10ms, valid
+1M: 120ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 19ms, valid
+1M: 263ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 11ms, valid
+1M: 126ms, valid
+
+==================================================
+
+
+
+=================== Intro Sort ===================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 461ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 38ms, valid
+1M: 493ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 42ms, valid
+1M: 521ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 37ms, valid
+1M: 472ms, valid
+
+==================================================
+================== Bubble Sort ===================
+
+Sorted
+1K: 5ms, valid
+10K: 528ms, valid
+100K: 53459ms, valid
+1M: 5338733ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 10ms, valid
+10K: 1099ms, valid
+100K: 110682ms, valid
+1M: 11460081ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 9ms, valid
+10K: 979ms, valid
+100K: 98045ms, valid
+1M: 9893667ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 5ms, valid
+10K: 554ms, valid
+100K: 55761ms, valid
+1M: 5729008ms, valid
+
+==================================================
+
+
+
+================= Insertion Sort =================
+
+Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 14ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 11ms, valid
+10K: 1214ms, valid
+100K: 121731ms, valid
+1M: 11934454ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 5ms, valid
+10K: 584ms, valid
+100K: 59148ms, valid
+1M: 5943698ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 17ms, valid
+100K: 1574ms, valid
+1M: 159364ms, valid
+
+==================================================
+
+
+
+============= Binary Insertion Sort ==============
+
+Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 11ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 19ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 2ms, valid
+10K: 277ms, valid
+100K: 27982ms, valid
+1M: 2825038ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 9ms, valid
+100K: 720ms, valid
+1M: 74836ms, valid
+
+==================================================
+
+
+
