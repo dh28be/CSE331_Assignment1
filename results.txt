@@ -394,183 +394,6 @@ Partially Sorted
 
 
 
-=================== Quick Sort ===================
-
-Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 34ms, valid
-1M: 425ms, valid
-
---------------------------------------------------
-
-Reverse Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 36ms, valid
-1M: 439ms, valid
-
---------------------------------------------------
-
-Random
-1K: 0ms, valid
-10K: 3ms, valid
-100K: 40ms, valid
-1M: 495ms, valid
-
---------------------------------------------------
-
-Partially Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 36ms, valid
-1M: 431ms, valid
-
-==================================================
-
-
-
-==================== Tim Sort ====================
-
-Sorted
-1K: 0ms, valid
-10K: 0ms, valid
-100K: 1ms, valid
-1M: 12ms, valid
-
---------------------------------------------------
-
-Reverse Sorted
-1K: 0ms, valid
-10K: 0ms, valid
-100K: 2ms, valid
-1M: 19ms, valid
-
---------------------------------------------------
-
-Random
-1K: 0ms, valid
-10K: 3ms, valid
-100K: 48ms, valid
-1M: 601ms, valid
-
---------------------------------------------------
-
-Partially Sorted
-1K: 0ms, valid
-10K: 0ms, valid
-100K: 14ms, valid
-1M: 192ms, valid
-
-==================================================
-
-
-
-============= No-galloping Tim Sort ==============
-
-Sorted
-1K: 0ms, valid
-10K: 0ms, valid
-100K: 1ms, valid
-1M: 12ms, valid
-
---------------------------------------------------
-
-Reverse Sorted
-1K: 0ms, valid
-10K: 0ms, valid
-100K: 2ms, valid
-1M: 20ms, valid
-
---------------------------------------------------
-
-Random
-1K: 0ms, valid
-10K: 3ms, valid
-100K: 46ms, valid
-1M: 569ms, valid
-
---------------------------------------------------
-
-Partially Sorted
-1K: 0ms, valid
-10K: 1ms, valid
-100K: 19ms, valid
-1M: 261ms, valid
-
-==================================================
-
-
-
-================ Tournament Sort =================
-
-Sorted
-1K: 0ms, valid
-10K: 1ms, valid
-100K: 10ms, valid
-1M: 122ms, valid
-
---------------------------------------------------
-
-Reverse Sorted
-1K: 0ms, valid
-10K: 1ms, valid
-100K: 10ms, valid
-1M: 120ms, valid
-
---------------------------------------------------
-
-Random
-1K: 0ms, valid
-10K: 1ms, valid
-100K: 19ms, valid
-1M: 263ms, valid
-
---------------------------------------------------
-
-Partially Sorted
-1K: 0ms, valid
-10K: 1ms, valid
-100K: 11ms, valid
-1M: 126ms, valid
-
-==================================================
-
-
-
-=================== Intro Sort ===================
-
-Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 36ms, valid
-1M: 461ms, valid
-
---------------------------------------------------
-
-Reverse Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 38ms, valid
-1M: 493ms, valid
-
---------------------------------------------------
-
-Random
-1K: 0ms, valid
-10K: 3ms, valid
-100K: 42ms, valid
-1M: 521ms, valid
-
---------------------------------------------------
-
-Partially Sorted
-1K: 0ms, valid
-10K: 2ms, valid
-100K: 37ms, valid
-1M: 472ms, valid
-
-==================================================
 ================== Bubble Sort ===================
 
 Sorted
@@ -679,3 +502,288 @@ Partially Sorted
 
 
 
+================= Selection Sort =================
+
+Sorted
+1K: 4ms, valid
+10K: 414ms, valid
+100K: 40417ms, valid
+1M: 4035989ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 3ms, valid
+10K: 373ms, valid
+100K: 38348ms, valid
+1M: 3942698ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 3ms, valid
+10K: 398ms, valid
+100K: 42403ms, valid
+1M: 4185059ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 3ms, valid
+10K: 404ms, valid
+100K: 40799ms, valid
+1M: 4097804ms, valid
+
+==================================================
+
+
+
+=================== Quick Sort ===================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 34ms, valid
+1M: 425ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 439ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 40ms, valid
+1M: 495ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 431ms, valid
+
+==================================================
+
+
+
+================== Library Sort ==================
+
+Sorted
+1K: 1ms, valid
+10K: 169ms, valid
+100K: 15684ms, valid
+1M: 1563922ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 1ms, valid
+10K: 163ms, valid
+100K: 15691ms, valid
+1M: 1579371ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 1ms, valid
+10K: 163ms, valid
+100K: 15933ms, valid
+1M: 1556609ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 1ms, valid
+10K: 159ms, valid
+100K: 15340ms, valid
+1M: 1533919ms, valid
+
+==================================================
+
+
+
+==================== Tim Sort ====================
+
+Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 1ms, valid
+1M: 12ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 2ms, valid
+1M: 19ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 48ms, valid
+1M: 601ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 0ms, valid
+100K: 14ms, valid
+1M: 192ms, valid
+
+==================================================
+
+
+
+============== Cocktail Shaker Sort ==============
+
+Sorted
+1K: 5ms, valid
+10K: 555ms, valid
+100K: 56104ms, valid
+1M: 5721133ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 11ms, valid
+10K: 1143ms, valid
+100K: 116379ms, valid
+1M: 11536298ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 9ms, valid
+10K: 960ms, valid
+100K: 92911ms, valid
+1M: 9259677ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 5ms, valid
+10K: 564ms, valid
+100K: 56612ms, valid
+1M: 5811422ms, valid
+
+==================================================
+
+
+
+=================== Comb Sort ====================
+
+Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 45ms, valid
+1M: 555ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 51ms, valid
+1M: 638ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 85ms, valid
+1M: 992ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 5ms, valid
+100K: 66ms, valid
+1M: 892ms, valid
+
+==================================================
+
+
+
+================ Tournament Sort =================
+
+Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 10ms, valid
+1M: 122ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 10ms, valid
+1M: 120ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 19ms, valid
+1M: 263ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 1ms, valid
+100K: 11ms, valid
+1M: 126ms, valid
+
+==================================================
+
+
+
+=================== Intro Sort ===================
+
+Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 36ms, valid
+1M: 461ms, valid
+
+--------------------------------------------------
+
+Reverse Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 38ms, valid
+1M: 493ms, valid
+
+--------------------------------------------------
+
+Random
+1K: 0ms, valid
+10K: 3ms, valid
+100K: 42ms, valid
+1M: 521ms, valid
+
+--------------------------------------------------
+
+Partially Sorted
+1K: 0ms, valid
+10K: 2ms, valid
+100K: 37ms, valid
+1M: 472ms, valid
+
+==================================================

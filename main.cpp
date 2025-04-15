@@ -35,7 +35,7 @@ struct Experiment {
     const int LOW = -1e9;
     const int HIGH = 1e9;
     const int NLOGN_NUM_REP = 10;
-    const int N2_NUM_REP = 1;
+    const int N2_NUM_REP = 2;
     const double PARTIALLY_SORTED_SWAP_RATE = 0.01;
 
     enum Input_Type {
@@ -49,7 +49,7 @@ struct Experiment {
     uniform_int_distribution<int> dis;
     ofstream out_file;
 
-    Experiment() : dis(LOW, HIGH), out_file("result2.txt") {
+    Experiment() : dis(LOW, HIGH), out_file("results.txt") {
         gen_sorted();
         gen_reverse_sorted();
         gen_rand();
@@ -1802,7 +1802,7 @@ void no_galloping_tim_sort(vi_it begin, vi_it end) {
 
 void cocktail_shaker_sort(vi_it begin, vi_it end) {
     bool flag = 1;
-    while(begin+1 < end) {
+    while(begin+1 != end) {
         if(flag) {
             end--;
             for(vi_it it = begin; it != end; ++it)
@@ -1890,24 +1890,25 @@ int main() {
     nlogn_test_targets.push_back({base0_non_rec_heap_sort, "0-based Non-recursive Heap Sort"});
     nlogn_test_targets.push_back({base1_heap_sort, "1-based Heap Sort"});
     nlogn_test_targets.push_back({base1_non_rec_heap_sort, "1-based Non-recursive Heap Sort"});
-    // n2_test_targets.push_back({bubble_sort, "Bubble Sort"});
-    // n2_test_targets.push_back({insertion_sort, "Insertion Sort"});
-    // n2_test_targets.push_back({binary_insertion_sort, "Binary Insertion Sort"});
+    n2_test_targets.push_back({bubble_sort, "Bubble Sort"});
+    n2_test_targets.push_back({insertion_sort, "Insertion Sort"});
+    n2_test_targets.push_back({binary_insertion_sort, "Binary Insertion Sort"});
     n2_test_targets.push_back({selection_sort, "Selection Sort"});
     nlogn_test_targets.push_back({quick_sort, "Quick Sort"});
     n2_test_targets.push_back({library_sort, "Library Sort"});
     nlogn_test_targets.push_back({tim_sort, "Tim Sort"});
-    nlogn_test_targets.push_back({no_galloping_tim_sort, "No-galloping Tim Sort"});
+    // nlogn_test_targets.push_back({no_galloping_tim_sort, "No-galloping Tim Sort"});
     n2_test_targets.push_back({cocktail_shaker_sort, "Cocktail Shaker Sort"});
-    n2_test_targets.push_back({comb_sort, "Comb Sort"});
+    nlogn_test_targets.push_back({comb_sort, "Comb Sort"});
     nlogn_test_targets.push_back({tournament_sort, "Tournament Sort"});
     nlogn_test_targets.push_back({intro_sort, "Intro Sort"});
 
-    // int nlogn_sz = nlogn_test_targets.size();
-    // for(int i = 0; i < nlogn_sz; ++i) {
-    //     res = experiment.nlogn_test(nlogn_test_targets[i].first);
-    //     experiment.write_file(res, nlogn_test_targets[i].second);
-    // }
+    int nlogn_sz = nlogn_test_targets.size();
+    for(int i = 0; i < nlogn_sz; ++i) {
+        res = experiment.nlogn_test(nlogn_test_targets[i].first);
+        experiment.write_file(res, nlogn_test_targets[i].second);
+        experiment.out_file << "\n\n" << endl;
+    }
 
     int n2_sz = n2_test_targets.size();
     for(int i = 0; i < n2_sz; ++i) {
